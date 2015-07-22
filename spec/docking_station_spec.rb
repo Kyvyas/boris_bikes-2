@@ -6,3 +6,13 @@ describe DockingStation do
 
 end
 
+describe Bike do
+
+	it "testing working?" do
+		bike = Bike.new
+	expect(bike).to be_working
+	end
+	
+
+
+end
